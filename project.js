@@ -1,7 +1,7 @@
 const projects = {
     transcrypt: {
         name: "TransCrypt – Secure File Transfer System",
-        image: "post1.png",
+        image: "post11.png",
         description: "My project is TransCrypt, a secure file transfer system developed during my cybersecurity internship at Ashtaksha Labs \n Problem we are tried solve from this project is In many organizations, sensitive files are shared over networks. If these files are not protected, they can be tempered, modified, or accessed by unauthorized users. My project focuses on securely transferring those files while ensuring confidentiality, integrity, and authentication. Objective The main goal of this project is to: Secure files during transmission Ensure only authorized users can upload and download files Prevent data tampering and unauthorized access",
         technologies: ["Python", "Flask", "MySQL", "AES", "RSA", "SSL/TLS"]
     },
@@ -39,3 +39,4 @@ if(project){
         techList.appendChild(li);
     });
 }
+
