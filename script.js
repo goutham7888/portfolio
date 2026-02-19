@@ -29,7 +29,9 @@ function typeEffect() {
 
   setTimeout(typeEffect, isDeleting ? deletingSpeed : typingSpeed);
 }
-
+function openProject(projectName){
+    window.location.href = `project.html?project=${projectName}`;
+}
 typeEffect();
 //
    const slides1 = document.getElementById("slides1");
@@ -177,4 +179,5 @@ typeEffect();
 
       // Clear fields
       form.reset();
+
     });
